@@ -1,141 +1,107 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,eclipse,java,maven
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,eclipse,java,maven
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-### Eclipse ###
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
+# AWS User-specific
+.idea/**/aws.xml
 
-# External tool builders
-.externalToolBuilders/
+# Generated files
+.idea/**/contentModel.xml
 
-# Locally stored "Eclipse launch configurations"
-*.launch
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-# CDT-specific (C/C++ Development Tooling)
-.cproject
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
-# CDT- autotools
-.autotools
+# CMake
+cmake-build-*/
 
-# Java annotation processor (APT)
-.factorypath
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# PDT-specific (PHP Development Tools)
-.buildpath
+# File-based project format
+*.iws
 
-# sbteclipse plugin
-.target
+# IntelliJ
+out/
 
-# Tern plugin
-.tern-project
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# TeXlipse plugin
-.texlipse
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-# STS (Spring Tool Suite)
-.springBeans
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-# Code Recommenders
-.recommenders/
+# SonarLint plugin
+.idea/sonarlint/
 
-# Annotation Processing
-.apt_generated/
-.apt_generated_test/
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
+# Editor-based Rest Client
+.idea/httpRequests
 
-# Uncomment this line if you wish to ignore the project description file.
-# Typically, this file would be tracked if it contains build/dependency configurations:
-#.project
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
 
-### Eclipse Patch ###
-# Spring Boot Tooling
-.sts4-cache/
+## target folder at the top level of the project structue and paths and contents underneath it
 
-### Java ###
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-
-### Maven ###
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+target/*
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
+## target folder at any level of the project structue
+
+**/target
+/target
+
+## Any un needed file any where in the project file structure.
+*.class
+*.tmp
+*.jar
+*.html
+*.png
+*.json
+*.csv
+*.DS_Store
+
+# any eclipse project file.
+.eclipse
 .classpath
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
+## All the folders underneath site folder
 
-# Dump file
-*.stackdump
+**/site
+site/
+site/*
 
-# Folder config file
-[Dd]esktop.ini
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java,maven
